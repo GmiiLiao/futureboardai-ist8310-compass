@@ -1,0 +1,23 @@
+{
+    "id": "IST8310Compass",
+    "name": {
+        "en": "IST8310 Compass",
+        "zh-cn": "IST8310 罗盘",
+        "zh-tw": "IST8310 羅盤"
+    },
+    "extensionId": "IST8310Compass",
+    "version": "1.0.0",
+    "describe": {
+        "en": "IST8310 3-axis magnetometer compass for Future Board AI (ESP32-S3). Provides tilt-compensated heading, raw magnetic field data, and pitch/roll angles.",
+        "zh-cn": "IST8310三轴磁力计罗盘，适用于未来板AI(ESP32-S3)。提供倾斜补偿航向、原始磁场数据和俯仰/滚转角度。",
+        "zh-tw": "IST8310三軸磁力計羅盤，適用於未來板AI(ESP32-S3)。提供傾斜補償航向、原始磁場數據和俯仰/橫滾角度。"
+    },
+    "type": "scratch3",
+    "image": "compass_icon.png",
+    "color1": "#1a237e",
+    "color2": "#283593",
+    "color3": "#3949ab",
+    "tags": ["hardware", "sensor", "compass", "futureboard"],
+    "weights": 500,
+    "examples": []
+}
