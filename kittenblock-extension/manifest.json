@@ -1,0 +1,18 @@
+{
+  "name": "IST8310 Compass for Future Board AI",
+  "version": "1.0.0",
+  "description": "KittenBlock extension for IST8310 3-axis magnetometer with tilt-compensated compass heading using Future Board AI (ESP32-S3)",
+  "author": "gmii",
+  "homepage": "https://github.com/gmii/futureboardai-ist8310-compass",
+  "license": "MIT",
+  "keywords": ["ist8310", "compass", "magnetometer", "future board", "kittenblock", "ESP32-S3"],
+  "hardware": "Future Board AI (FutureLite ESP32-S3-FN8)",
+  "sensor": "IST8310 3-axis magnetometer (I2C address: 0x0E)",
+  "files": {
+    "extension": "index.js",
+    "micropython": [
+      "micropython/ist8310.py",
+      "micropython/main.py"
+    ]
+  }
+}
